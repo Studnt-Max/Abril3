@@ -1,0 +1,12 @@
+Crear un solo endpoint
+de la bd debemos traer un listado de alumnos
+Cada estudiante regresa: Calificacion, Matricula, Nombre, Calificacion Final y Si tiene adeudos o no 
+
+Cuando llames al endpoint debe de regresar> Matricula y luego un mensaje deacuerdo a su situacion actual
+
+Opciones de mensaje:
+Usuario arriba de 90 sin adeudos.mensaje = "Te graduaste con honores"
+Uusairo arriab de 90 pero con adeudos.mensaje = "Tenias honores, pero tienes un adeudo"
+Usuario entre 70 - 90 con adeudo o no.mensaje = "Pasaste apenas"
+Uusario menor a 70 sin adeudos.mensaje = "Como no tienes adeudo, tienes derecho a un examen de recuperacion"
+Uusario menor a 70 con adeudos.mensaje = "Expulsado"
