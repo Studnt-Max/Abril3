@@ -5,6 +5,6 @@ const router = express.Router();
 
 const studenthttpHandler = new StudenthttpHandler();
 
-router.get("/", StudenthttpHandler.getStudent);
+router.get("/", studenthttpHandler.getStudent);
 
 export default router;

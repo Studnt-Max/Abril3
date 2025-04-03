@@ -1,7 +1,8 @@
+import { studentService } from "../db/studentDB";
 
 class StudentController {
 
-    async getStudent() {
+    async getAllStudent() {
         const student = await studentService.getStudent();
         return 
     }

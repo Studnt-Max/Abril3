@@ -6,7 +6,7 @@ const studentController = new StudentController();
 class StudenthttpHandler {
     async getStudent(request: Request, response: Response, next: NextFunction) {
         try {
-            const student = await StudentController.getStudent();
+            const student = await studentController.getAllStudent();
             response.json(student)
         } catch (error) {
             next(error)
