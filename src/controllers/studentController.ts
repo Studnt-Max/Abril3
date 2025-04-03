@@ -4,7 +4,7 @@ class StudentController {
 
     async getAllStudent() {
         const student = await studentService.getStudent();
-        return 
+        return student
     }
 }
 
